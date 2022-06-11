@@ -10,6 +10,25 @@ authorName: 'Serverless, inc.'
 authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
 -->
 
+git command
+
+create a new repository on the command line
+echo "# serverless-api-python" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/mvtram/serverless-api-python.git
+git push -u origin master
+
+push to existing repo
+git remote add origin https://github.com/mvtram/serverless-api-python.git
+git branch -M master
+git push -u origin master
+
+
+
+
 # Serverless Framework Python HTTP API on AWS
 
 This template demonstrates how to make a simple HTTP API with Python running on AWS Lambda and API Gateway using the Serverless Framework.
